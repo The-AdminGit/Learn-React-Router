@@ -14,6 +14,7 @@ import About from "./componet/About/About.jsx";
 import Contact from "./componet/Contact/Contact.jsx";
 import User from "./componet/User/User.jsx";
 import Github from "./componet/Github/Github.jsx";
+import Subhero from "./componet/Subhero.jsx";
 
 //create router one way
 // const router = createBrowserRouter([
@@ -47,6 +48,8 @@ const router = createBrowserRouter(
       <Route path="contact" element={<Contact />} />
       <Route path="user/:userid" element={<User />} />
       <Route path="github" element={<Github />} />
+      <Route path="subhero" element={<Subhero />} />
+
     </Route>
   )
 );
